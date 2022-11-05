@@ -55,18 +55,18 @@ class GildedRoseTest {
   @DisplayName("Test  quality increases as time goes by")
   void quality_increases_in_time() {
     Item[] items = new Item[] {
-            new Item("Aged Brie", 19, 50),
-            new Item("Aged Brie", 19, 9),
-            new Item("Backstage passes to a TAFKAL80ETC concert", 10, 49),
-            new Item("Backstage passes to a TAFKAL80ETC concert", 10, 9),
-            new Item("Backstage passes to a TAFKAL80ETC concert", 11, 9),
-            new Item("Backstage passes to a TAFKAL80ETC concert", 5, 9),
-            new Item("Backstage passes to a TAFKAL80ETC concert", 6, 9),
-            new Item("Backstage passes to a TAFKAL80ETC concert", -1, 48),
-            new Item("Aged Brie", -1, 9),
-            new Item("Aged Brie", -1, 49),
-            new Item("Aged Brie", 1, 9),
-            new Item("Sulfuras, Hand of Ragnaros", -1, 9),
+            new Item(Item.AB, 19, 50),
+            new Item(Item.AB, 19, 9),
+            new Item(Item.BAK, 10, 49),
+            new Item(Item.BAK, 10, 9),
+            new Item(Item.BAK, 11, 9),
+            new Item(Item.BAK, 5, 9),
+            new Item(Item.BAK, 6, 9),
+            new Item(Item.BAK, -1, 48),
+            new Item(Item.AB, -1, 9),
+            new Item(Item.AB, -1, 49),
+            new Item(Item.AB, 1, 9),
+            new Item(Item.SUL, -1, 9),
     };
     GildedRose app = new GildedRose(items);
     app.updateQuality();
