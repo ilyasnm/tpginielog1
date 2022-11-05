@@ -6,7 +6,7 @@ public class Item {
     public final static  String  SUL="Sulfuras, Hand of Ragnaros";
     public final static  String  BAK="Backstage passes to a TAFKAL80ETC concert";
     public final static  String CAKE="Conjured Mana Cake";
-
+    //réalise par ilyas NAIMA ET YACINE IFRADEN
     public String name;
 
     public int sellIn;
